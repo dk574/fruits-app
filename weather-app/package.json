@@ -1,0 +1,8 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "quick app that checks weather in cities",
+  "main": "index.js",
+  "author": "dixie korley - brandon morelli guide",
+  "license": "MIT"
+}
