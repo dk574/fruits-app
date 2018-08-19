@@ -3,6 +3,19 @@
   "version": "1.0.0",
   "description": "quick app that checks weather in cities",
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dk574/weather-app.git"
+  },
   "author": "dixie korley - brandon morelli guide",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dk574/weather-app/issues"
+  },
+  "homepage": "https://github.com/dk574/weather-app#readme",
+  "dependencies": {
+  }
 }
