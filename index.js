@@ -10,5 +10,4 @@ request(URL, function(error, response, body) {
     } else {
         console.log(`body: ${body}`);
     }
-    console.log(response);
 });
