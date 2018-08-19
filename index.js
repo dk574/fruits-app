@@ -6,9 +6,9 @@ let URL = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_
 
 request(URL, function(error, response, body) {
     if (error) {
-        console.log(`Error: ${error}`);
+        console.log(`error: ${error}`);
     } else {
-        console.log(`Body: ${body}`);
+        console.log(`body: ${body}`);
     }
-    return response;
+    console.log(response);
 });
