@@ -17,5 +17,6 @@
   },
   "homepage": "https://github.com/dk574/weather-app#readme",
   "dependencies": {
+    "request": "^2.88.0"
   }
 }
