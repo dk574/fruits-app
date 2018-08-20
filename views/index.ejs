@@ -2,19 +2,20 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Test</title>
-    <link href="/css/style.css" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <title>Weather App</title>
+    <link href="/css/index.css" rel="stylesheet" type="text/css">
+
   </head>
   <body>
     <div class="container">
+        <h1>Check the Weather</h1>
       <fieldset>
         <form action="/" method="post">
           <input name="city" type="text" class="ghost-input" placeholder="Enter a City" required>
           <input type="submit" class="ghost-button" value="Get Weather">
         </form>
         <% if(weather !== null) {
-            %><p><%= weather %></p>
+            %><p class="highlight-text"><%= weather %></p>
        <% }%>
 
        <% if(error !== null) {

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+  
+}
+
+
+form {
+    background: white;
+}
+
+.highlight-text {
+    color: white;
+}
+
+fieldset {
+    background: none;
+    border: none;
+}
+html {
+    background: url('https://i.ytimg.com/vi/fwkKc6M60-0/maxresdefault.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
+h1 {
+    text-align: center;
+    font-family: 'Bungee Inline', cursive;
+    color: gold;
+}
