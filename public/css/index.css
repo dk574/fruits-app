@@ -44,3 +44,8 @@ p {
     font-size: 100%;
     font-style: bold;
 }
+
+.button {
+   width: 20%;
+   border-radius: 15px 50px;
+}
