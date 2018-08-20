@@ -35,7 +35,7 @@ app.post('/', (req, res) => {
                 res.render('index', { weather: null, error: 'Error, please try again' })
                 console.log(`Status code is ${response.statusCode}`);
             } else {
-                let text = `${weather.name}, ${weather.sys.country}'s temperature is ${weather.main.temp} degrees.`;
+                let text = `${weather.name}'s temperature is ${weather.main.temp} degrees.`;
                 res.render('index', { weather: text, error: null })
                 console.log(`Status code is ${response.statusCode}`);
             }

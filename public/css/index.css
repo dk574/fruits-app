@@ -3,32 +3,44 @@
 
 * {
     font-family: 'Montserrat', sans-serif;
-  
 }
 
-
 form {
-    background: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: none;
 }
 
 .highlight-text {
     color: white;
 }
 
+
 fieldset {
     background: none;
     border: none;
+    margin: 0 auto;
+    
 }
 html {
-    background: url('https://i.ytimg.com/vi/fwkKc6M60-0/maxresdefault.jpg');
+    background: linear-gradient(0deg, rgba(0,255,0,0.4), rgba(255,0,0,0.2)), url('https://i.ytimg.com/vi/fwkKc6M60-0/maxresdefault.jpg');
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+   opacity: 0.9;
 }
  
 h1 {
     text-align: center;
     font-family: 'Bungee Inline', cursive;
     color: gold;
+    font-size: 250%;
+}
+
+p {
+    text-align: center;
+    font-size: 100%;
+    font-style: bold;
 }
